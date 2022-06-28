@@ -11,12 +11,12 @@ vector<vector<int>> mergeIntervals(vector<vector<int>> intervals) {
     sort(intervals.begin(), intervals.end());
     vector<int> temp = intervals[0];
 
-    for(auto it : intervals) {
-        if(it[0] <= temp[1]) {
-            temp[1] = max(it[1], temp[1]);
+    for(int i = 1; i < size; i++) {
+        if(intervals[i][0] <= temp[1]) {
+            temp[1] = max(intervals[i][1], temp[1]);
         } else {
             mergedIntervals.push_back(temp);
-            temp = it;
+            temp = intervals[i];
         }
     }
     mergedIntervals.push_back(temp);
@@ -24,7 +24,7 @@ vector<vector<int>> mergeIntervals(vector<vector<int>> intervals) {
 }
 
 int main() {
-    vector<vector<int>> resultedIntervals = mergeIntervals({{1, 3}, {1, 6}, {8, 10}, {9, 9}, {15, 18}});
+    vector<vector<int>> resultedIntervals = mergeIntervals({{1, 4}, {0, 4}});
     for(vector<int> t : resultedIntervals) {
         cout << " [ ";
         for(int i : t) {
