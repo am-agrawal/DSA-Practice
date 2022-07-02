@@ -16,7 +16,7 @@ bool isValid(string s) {
 
 void partition(string s, int idx, vector<string>& ds, vector<vector<string>>& ans) {
     if(idx == s.size()) {
-        if(ds.size() == 1) return;
+        if(ds.size() == 1 && s.size() != 1) return;
         ans.push_back(ds);
         return;
     }
