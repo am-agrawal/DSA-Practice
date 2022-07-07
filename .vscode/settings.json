@@ -4,6 +4,8 @@
         "vector": "cpp",
         "unordered_set": "cpp",
         "map": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "queue": "cpp",
+        "stack": "cpp"
     }
 }
