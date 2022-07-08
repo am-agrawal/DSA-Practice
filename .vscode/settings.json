@@ -6,6 +6,7 @@
         "map": "cpp",
         "iostream": "cpp",
         "queue": "cpp",
-        "stack": "cpp"
+        "stack": "cpp",
+        "utility": "cpp"
     }
 }
