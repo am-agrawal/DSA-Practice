@@ -13,5 +13,6 @@
         "xiosbase": "cpp",
         "xlocale": "cpp",
         "xutility": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }
