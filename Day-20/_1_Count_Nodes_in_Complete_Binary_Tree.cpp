@@ -1,7 +1,7 @@
 #include "../DataStructureClass.hpp"
 
 int leftHeight(TreeNode* root) {
-    int height = 0;
+    int height = 1;
     while(root) {
         height++;
         root = root -> left;
@@ -9,7 +9,7 @@ int leftHeight(TreeNode* root) {
     return height;
 }
 int rightHeight(TreeNode* root) {
-    int height = 0;
+    int height = 1;
     while(root) {
         height++;
         root = root -> right;
