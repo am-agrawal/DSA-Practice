@@ -1,7 +1,7 @@
 /*
 
 * Bellman Ford' Algorithm is also used to find the MST of a Graph
-* But it has other benefits alse.
+* But it has other benefits also.
 * It works on Directed Weighted Graph
 * It can work with negative weights also.
 * But when there is a Negative Cycle, it can detect the cycle
