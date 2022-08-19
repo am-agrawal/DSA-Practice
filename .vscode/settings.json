@@ -1,18 +1,19 @@
 {
-    "files.associations": {
-        "*.ejs": "html",
-        "vector": "cpp",
-        "unordered_set": "cpp",
-        "map": "cpp",
-        "iostream": "cpp",
-        "queue": "cpp",
-        "stack": "cpp",
-        "utility": "cpp",
-        "string": "cpp",
-        "algorithm": "cpp",
-        "xiosbase": "cpp",
-        "xlocale": "cpp",
-        "xutility": "cpp"
-    },
-    "C_Cpp.errorSquiggles": "Disabled"
+	"files.associations": {
+		"*.ejs": "html",
+		"vector": "cpp",
+		"unordered_set": "cpp",
+		"map": "cpp",
+		"iostream": "cpp",
+		"queue": "cpp",
+		"stack": "cpp",
+		"utility": "cpp",
+		"string": "cpp",
+		"algorithm": "cpp",
+		"xiosbase": "cpp",
+		"xlocale": "cpp",
+		"xutility": "cpp"
+	},
+	"C_Cpp.errorSquiggles": "Disabled",
+	"prettier.useEditorConfig": false
 }
