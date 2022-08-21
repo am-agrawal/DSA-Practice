@@ -67,8 +67,8 @@ bool subsetSum(vector<int>& nums, int target) {
 int main() {
   vector<int> nums = {4, 3, 7};
   int target = 11;
-  int n = nums.size();
-  vector<vector<int>> dp(n, vector<int>(target+1, -1));
+  // int n = nums.size();
+  // vector<vector<int>> dp(n, vector<int>(target+1, -1));
 
 // Memoization
   // cout << subsetSum(n-1, target, nums, dp) << endl;
