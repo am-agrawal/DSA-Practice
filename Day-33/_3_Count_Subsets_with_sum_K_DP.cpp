@@ -5,6 +5,17 @@
 #include <vector>
 using namespace std;
 
+// It will work fine when the numbers starts from 1
+// But when the numbers starts from 0 then a little change will be required
+
+// if(i == 0) {
+//   if(sum == 0 && nums[0] == 0) return 2;
+//   if(sum == 0 || sum == arr[0]) return 1;
+//   else return 0;
+// }
+
+// And now with this code, it will work fine
+
 // Memoization
 int countSubsets(int i, int k, vector<int> &nums, vector<vector<int>>& dp) {
   if(k == 0) return 1;
